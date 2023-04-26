@@ -4,9 +4,9 @@ choice = input("What do you want to calculate? (SI/CI): ")
 if choice == "SI" or choice == "si":
     print("Welcome to SI calculator")
     print("Enter the asked values, type 0 if value is not given!")
-    siPrinciple = float(input("What is the principle amount? "))
-    siRate = float("What is the Rate of Interest? ")
-    siTime = float(input("What is the Time Period? "))
+    siPrinciple = int(input("What is the principle amount? "))
+    siRate = int(input("What is the Rate of Interest? "))
+    siTime = int(input("What is the Time Period? "))
     si = (siPrinciple * siRate * siTime) / 100
     siAmount = ((siPrinciple * siRate * siTime) / 100) + siPrinciple
     print("SI = ₹", si)
