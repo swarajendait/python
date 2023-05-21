@@ -27,5 +27,9 @@ This repository contains 20 Python codes covering the basics of arithmetic opera
 2. lastElementOfList.py
 3. repeatElementsOfList.py
 
+## Practice Set
+1. Questions.txt (feel free to try them out!)
+2. solution.py (solutions to all questions)
+
 ## Conclusion
 In summary, this repository provides a comprehensive overview of basic Python concepts that can serve as a foundation for further learning and development.
